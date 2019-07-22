@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:text_color="#3b5998"
         app:title="Full name"
-        app:is_clearable="false"
+        app:is_clearable="true"
         app:upper_hint_color="#8997B3">
 
 
