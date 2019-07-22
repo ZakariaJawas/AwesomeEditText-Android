@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AwsomeZakEditText</string>
+    <string name="default_hint">Enter your value</string>
+</resources>

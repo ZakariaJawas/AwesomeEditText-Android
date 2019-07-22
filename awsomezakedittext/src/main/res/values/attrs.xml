@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AwesomeEditText">
+
+
+        <attr name="is_rtl" format="boolean" />
+        <attr name="is_clearable" format="boolean" />
+
+        <attr name="hint" format="string" />
+        <attr name="title" format="string" />
+
+        <attr name="upper_hint_background" format="color" />
+        <attr name="upper_hint_color" format="color" />
+        <attr name="border_color" format="color" />
+        <attr name="focus_border_color" format="color" />
+        <attr name="text_color" format="color" />
+
+    </declare-styleable>
+</resources>

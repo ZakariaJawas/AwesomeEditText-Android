@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="upper_hint_color">#222</color>
+    <color name="upper_hint_background">#FAFAFA</color>
+    <color name="border_color">#BBB</color>
+    <color name="focus_border_color">#3C3C3C</color>
+    <color name="text_color">#555</color>
+    <color name="red">#bb2131</color>
+
+</resources>
