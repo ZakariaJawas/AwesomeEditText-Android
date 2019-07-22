@@ -3,7 +3,7 @@
 ![Release](https://img.shields.io/github/release/zakariajawas/AwesomeEditText-Android.svg) ![Licence](https://img.shields.io/github/license/zakariajawas/AwesomeEditText-Android.svg) ![Downloads](https://img.shields.io/github/downloads/zakariajawas/AwesomeEditText-Android/total.svg)
 
 ## Installation
-Add jitpack to your repositories in your `build.gradle` file
+Add Jitpack to your repositories in your `build.gradle` file
 
 ```
 allprojects {
@@ -16,21 +16,31 @@ allprojects {
 
 Add the below to your dependencies, again in your `gradle.build` file
 
-```implementation 'com.github.ZakariaJawas:AwesomeEditText-Android:{release}'```
+```
+implementation 'com.github.ZakariaJawas:AwesomeEditText-Android:{release}'
+```
 
 ## Preview
 
-### title
+**title**
 
-(https://github.com/ZakariaJawas/AwesomeEditText-Android/blob/master/images/EditTextHint.gif)
+![title](https://github.com/ZakariaJawas/AwesomeEditText-Android/blob/master/images/EditTextHint.gif)
 
-### clearable
+
+**clearable**
+
+![clearable](https://github.com/ZakariaJawas/AwesomeEditText-Android/blob/master/images/clearable.png)
+
+
+**validation**
+
+![validation](https://github.com/ZakariaJawas/AwesomeEditText-Android/blob/master/images/validation.png)
 
 
 
 ## Usage
 
-basic
+**basic**
 
 ```xml
     <com.edunology.awsomezakedittext.AwesomeEditText
@@ -41,6 +51,35 @@ basic
         app:hint="Please enter your name"
         app:title="Full name" >      
 ```
+**available properities**
+
+_border color_
+
+`app:border_color="#8997B3"`
+
+_border color when edittext got focus_
+
+`app:focus_border_color="#3b5998"`
+
+_title color when user starts typing and the title goes to the top as a hint_
+
+`app:upper_hint_color="#8997B3"`
+
+_title background color when it goes to the top as a hint (used to hide the border line behinde the text so it must be the same as the parent's layout background color)_
+
+`app:upper_hint_background=""`
+
+_text color_
+
+`app:text_color="#3b5998"`
+
+_show the clear button when user starts typing (default is false)_
+
+`app:is_clearable="true"`
+
+_supporting RIGHT-TO-LEFT (default is false)_
+
+`app:is_rtl="true"`
 
 
 ## Compatibility
