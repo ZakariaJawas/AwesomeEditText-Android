@@ -87,7 +87,7 @@ Minimum Android SDK: API level 15
 
 ## Author
 Zakaria Jawas [@zakariajawas](https://twitter.com/zakariajawas)
-
+`AwesomeEditText` design was inspired by [MDalsaeed](https://github.com/MDalsaeed)
 ## Getting help
 If you spot a problem you can open an issue on the Github page, or alternatively, you can contact me via `jawas.zakaria@gmail.com`
 
